@@ -22,6 +22,21 @@ f b 1 1 1 1 f b 1 1 1 1 f . . .
 . . . . . . . . . f f . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
+            case "image2":
+            case "myImage":return img`
+. . . f f f . . . . f f f . . . 
+. . f 1 1 1 f f f f 1 1 1 f . . 
+. f 1 1 1 1 1 1 1 1 1 1 1 1 f . 
+. f 1 1 f 1 1 1 1 1 1 5 1 1 f . 
+f b 1 f f f 1 1 1 1 8 1 2 1 1 f 
+f b 1 1 f 1 1 1 1 1 1 7 1 1 1 f 
+f b 1 1 1 c c 1 1 c c 1 1 1 1 f 
+f b 1 1 c b b c c b b c 1 1 1 f 
+f b 1 1 c b b f f b b c 1 1 1 f 
+f b 1 1 1 f f . . f f b 1 1 1 f 
+. f b 1 f . . . . . . f b b f . 
+. . f f . . . . . . . . f f . . 
+`;
         }
         return null;
     })
